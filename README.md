@@ -1,7 +1,6 @@
 # AI × Web3 School — 个人学习仓库
 
-**学员**：Riso / Emily (LierMi)
-**Cohort**：Cohort 0
+**学员**：Riso (Lier Mi)
 **共学计划**：AI × Web3 School，由 LXDAO 与 ETHPanda 联合发起
 
 ---
