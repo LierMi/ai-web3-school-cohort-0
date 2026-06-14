@@ -40,36 +40,36 @@ Week 4 只做一个最小可验证主流程：
 
 ## 3. Must-have
 
-| 任务 | Owner | Deadline | 验证方式 | 状态 |
-| --- | --- | --- | --- | --- |
-| 前端接通 `data/exhibits.json`，首页展示真实展品 | Riso | Week 4 Day 4 | 浏览器能看到展品卡片 | 已完成 |
-| 点击展品进入详情页，展示真实字段 | Riso | Week 4 Day 4 | `death_cause`、`evidence`、合约地址、损失金额正常渲染 | 已完成 |
-| 至少 1 个案例用真实 GLM / Agent 调查流程跑通 | Clara | Week 4 Day 5 | `runs/` 中有 JSONL 调查日志，且输出单案 JSON | 已完成 |
-| 生成合并展品数据 `data/exhibits.json` | Clara | Week 4 Day 5 | 前端能读取并渲染多案例数据 | 已完成 |
-| Agent 调查日志回放面板 | Riso | Week 4 Day 6 | 能看到工具调用、假设提出、修正和最终结案过程 | 已完成 |
-| README 补全架构、运行方式、GLM 调用位置、Web3 证明和安全边界 | Clara / Riso | Week 4 Day 7 | 评委可通过 README 理解项目并本地运行 | 已完成 |
-| 3–5 分钟 Demo Story / 路演脚本 | Riso | Week 4 Day 7 | 脚本覆盖问题、主流程、技术亮点、mock / 风险边界 | 已完成 |
-| 提交前敏感信息检查 | Riso / Clara | Week 4 Day 7 | `.env` 不入库，README 不暴露 key / token / 私钥 | 已完成 |
+| 任务 | Deadline | 验证方式 | 状态 |
+| --- | --- | --- | --- |
+| 前端接通 `data/exhibits.json`，首页展示真实展品 | Week 4 Day 4 | 浏览器能看到展品卡片 | 已完成 |
+| 点击展品进入详情页，展示真实字段 | Week 4 Day 4 | `death_cause`、`evidence`、合约地址、损失金额正常渲染 | 已完成 |
+| 至少 1 个案例用真实 GLM / Agent 调查流程跑通 | Week 4 Day 5 | `runs/` 中有 JSONL 调查日志，且输出单案 JSON | 已完成 |
+| 生成合并展品数据 `data/exhibits.json` | Week 4 Day 5 | 前端能读取并渲染多案例数据 | 已完成 |
+| Agent 调查日志回放面板 | Week 4 Day 6 | 能看到工具调用、假设提出、修正和最终结案过程 | 已完成 |
+| README 补全架构、运行方式、GLM 调用位置、Web3 证明和安全边界 | Week 4 Day 7 | 评委可通过 README 理解项目并本地运行 | 已完成 |
+| 3–5 分钟 Demo Story / 路演脚本 | Week 4 Day 7 | 脚本覆盖问题、主流程、技术亮点、mock / 风险边界 | 已完成 |
+| 提交前敏感信息检查 | Week 4 Day 7 | `.env` 不入库，README 不暴露 key / token / 私钥 | 已完成 |
 
 ## 4. Should-have
 
-| 任务 | Owner | Deadline | 验证方式 | 状态 |
-| --- | --- | --- | --- | --- |
-| 跑通 5 个真实链上事故案例 | Clara | Week 4 Day 6 | `data/` 中包含 5 个案例 JSON，`exhibits.json` 合并成功 | 已完成 |
-| 增加事实核查文档 `FACT_CHECK.md` | Clara / Riso | Week 4 Day 7 | 关键金额、死因、时间和外部资料有核查记录 | 已完成 |
-| 优化博物馆视觉体验 | Riso | Week 4 Day 5–7 | 页面具有“灾难博物馆 / 链上废墟”氛围 | 已完成 |
-| 增加“入坑前，先体检”免费合约体检入口 | Riso | Week 4 Day 7 | 用户可粘贴合约地址获得风险提示 | 已完成 |
-| 增加 OpenTimestamps 报告哈希凭证 | Clara | Week 4 Day 7 | `data/*.json.ots` 可作为可选存证材料 | 已完成 |
+| 任务 | Deadline | 验证方式 | 状态 |
+| --- | --- | --- | --- |
+| 跑通 5 个真实链上事故案例 | Week 4 Day 6 | `data/` 中包含 5 个案例 JSON，`exhibits.json` 合并成功 | 已完成 |
+| 增加事实核查文档 `FACT_CHECK.md` | Week 4 Day 7 | 关键金额、死因、时间和外部资料有核查记录 | 已完成 |
+| 优化博物馆视觉体验 | Week 4 Day 5–7 | 页面具有“灾难博物馆 / 链上废墟”氛围 | 已完成 |
+| 增加“入坑前，先体检”免费合约体检入口 | Week 4 Day 7 | 用户可粘贴合约地址获得风险提示 | 已完成 |
+| 增加 OpenTimestamps 报告哈希凭证 | Week 4 Day 7 | `data/*.json.ots` 可作为可选存证材料 | 已完成 |
 
 ## 5. Nice-to-have
 
-| 任务 | Owner | Deadline | 验证方式 | 状态 |
-| --- | --- | --- | --- | --- |
-| 3D 沉浸式展馆 | Riso | Post-hackathon | 可在浏览器中沉浸式浏览事故展品 | 延后 |
-| 社区共同策展 | Riso / Clara | Post-hackathon | 研究者或审计员可提交新事故档案 | 延后 |
-| 更完整的资金流可视化 | Clara / Riso | Post-hackathon | 能展示攻击资金路径图 | 延后 |
-| 防猝死指数 Anti-Sudden-Death Index | Clara / Riso | Post-hackathon | 对新项目输出结构化风险评分 | 延后 |
-| 钱包 / dApp 签名前提醒 | Clara / Riso | Post-hackathon | 在授权、mint、swap、bridge 前给出风险提示 | 延后 |
+| 任务 | Deadline | 验证方式 | 状态 |
+| --- | --- | --- | --- |
+| 3D 沉浸式展馆 | Post-hackathon | 可在浏览器中沉浸式浏览事故展品 | 延后 |
+| 社区共同策展 | Post-hackathon | 研究者或审计员可提交新事故档案 | 延后 |
+| 更完整的资金流可视化 | Post-hackathon | 能展示攻击资金路径图 | 延后 |
+| 防猝死指数 Anti-Sudden-Death Index | Post-hackathon | 对新项目输出结构化风险评分 | 延后 |
+| 钱包 / dApp 签名前提醒 | Post-hackathon | 在授权、mint、swap、bridge 前给出风险提示 | 延后 |
 
 ## 6. Cut / Mock 决策
 
